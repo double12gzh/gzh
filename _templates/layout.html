@@ -1,0 +1,35 @@
+{% extends "!layout.html" %}
+
+{# Nav should appear before content, not after #}
+{%- block content %}
+{%- if theme_fixed_sidebar|lower == 'true' %}
+  <div class="document">
+    {{ sidebar() }}
+    {%- block document %}
+      <div class="documentwrapper">
+      {%- if render_sidebar %}
+        <div class="bodywrapper">
+      {%- endif %}
+          <div class="body" role="main">
+            {% block body %} {% endblock %}
+            <br>
+            {% if pagename.startswith('blog') %}
+            <hr>
+            <div class="pitch" style="margin-top: 20px; margin-bottom: 20px; font-size: 16px;">
+            <i class="fa fa-info-circle"></i>
+            您好! 我是大海星，专注云计算/云原生开发与架构设计。欢迎关注我的微信公众号。
+            </div>
+            {% endif %}
+          </div>
+      {%- if render_sidebar %}
+        </div>
+      {%- endif %}
+      </div>
+    {%- endblock %}
+    <div class="clearer"></div>
+  </div>
+{%- else %}
+{{ super() }}
+{%- endif %}
+{%- endblock %}
+
