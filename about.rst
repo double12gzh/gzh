@@ -51,3 +51,12 @@ Find Me
 * 一人赛俩
 
 
+个人WIKI
+---------------------
+
+* `国内快速访问`_
+* `国外快速访问`_
+
+.. _国外快速访问: https://double12gzh.github.io/wiki/ 
+.. _国内快速访问: https://double12gzh.gitee.io/wiki/ 
+
