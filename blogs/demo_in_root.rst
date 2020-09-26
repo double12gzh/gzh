@@ -22,3 +22,10 @@
 
 :关于标签: 可以按标签进行分类查看。
 
+----------------------
+
+欢迎关注我的微信公众号：
+
+.. figure:: https://gitee.com/double12gzh/wiki-pictures/raw/master/wechat_public.jpg
+   :alt:
+
