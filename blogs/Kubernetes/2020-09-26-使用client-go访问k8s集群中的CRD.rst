@@ -8,7 +8,10 @@
 .. figure:: https://gitee.com/double12gzh/wiki-pictures/raw/master/2020-09-26-k8s-logo.png
    :alt:
 
-摘要：介绍如何使用clinet-go。
+如何使用client-go访问k8s crd
+============================
+
+摘要：介绍如何使用clinet-go手动编写程序来访问k8s中的crd。
 
 1. 写在前面
 -----------
