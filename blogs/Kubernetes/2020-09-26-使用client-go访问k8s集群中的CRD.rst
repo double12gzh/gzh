@@ -1,12 +1,14 @@
-.. post:: Sep 21, 2020
+.. post:: Sep 26, 2020
    :author: 大海星
-   :category: GoLang
+   :category: Kubernetes
    :location: BJ
-   :tags: golang, waitgroup, error
+   :tags: kubernetes, client-go, crd, controller
 .. :excerpt: 1
 
 .. figure:: https://gitee.com/double12gzh/wiki-pictures/raw/master/2020-09-26-k8s-logo.png
    :alt:
+
+摘要：介绍如何使用clinet-go。
 
 1. 写在前面
 -----------
