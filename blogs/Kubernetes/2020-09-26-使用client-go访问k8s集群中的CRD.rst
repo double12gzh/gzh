@@ -621,3 +621,10 @@ Resource建立一个客户端库，以及相应的Informer是一个很好的起�
 Operator，对Custom Resource的变化做出反应。
 
     您可以到我的\ `github <https://github.com/double12gzh/k8s-demo.git>`__\ 上查看完整代码
+
+----------------------
+
+欢迎关注我的微信公众号：
+
+.. figure:: https://gitee.com/double12gzh/wiki-pictures/raw/master/wechat_public.jpg
+   :alt:
