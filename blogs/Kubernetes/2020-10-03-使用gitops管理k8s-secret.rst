@@ -8,6 +8,8 @@
 使用GitOps管理K8S Secret
 ============================
 
+摘要: 介绍如何使用GitOps来管理Kubernetes Secret。
+
 |image0|
 
 1. 写在前面
