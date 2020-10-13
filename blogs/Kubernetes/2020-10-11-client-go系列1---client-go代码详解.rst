@@ -6,14 +6,19 @@
 .. :excerpt: 1
 
 client-go系列1---client-go代码详解
-============================
+==================================
+
+摘要：介绍golang-client的代码结构
 
 1. 写在前面
 -----------
 
+::
+
    个人主页: https://gzh.readthedocs.io
 
-   关注容器技术、关注\ ``Kubernetes``\ 。问题或建议，请公众号留言。
+   关注容器技术、关注Kubernetes。
+   问题或建议，请公众号留言。
 
 本系列内容都是基于这个版本的\ `client-go <https://github.com/kubernetes/client-go/tree/becbabb360023e1825a48b4db85f454e452ae249>`__\ 进行讲解，不同版本的略有差异。
 
@@ -26,16 +31,18 @@ client-go系列1---client-go代码详解
 
 |image0|
 
-   说明
+::
+
+   说明：
 
    看一下k8s的资源模型：
 
    apiVersion: extensions/v1beta1
-
    kind: ReplicaSet
 
-   对于Resource我们可以将之类比于编程语言中的“包”的概念，主要用于区分不同的API,这样可以有效避免Kinds重名的问题。通常会使用公司的域名等具有独特明显区分的字符串作为Resource的值，如：alibaba-inc.com
-
+   对于Resource我们可以将之类比于编程语言中的“包”的概念，主要用于区分不同的API，
+   这样可以有效避免Kinds重名的问题。通常会使用公司的域名等具有独特明显区分的字符
+   串作为Resource的值，如：alibaba-inc.com
    Version用于区分不同API的稳定程度及兼容性，如：v1beta1, v1
 
    Kind即为API所对应的名字，如：Deployment, Service
@@ -190,7 +197,8 @@ controller及client-go各组件之间的交互关系，是我们在开发自定�
 
 |image4|
 
-   如果您对client-go之前就比较了解，建议您移步\ `sample-controller <https://github.com/kubernetes/sample-controller>`__\ 看一下控制器实现的具体代码。
+
+如果您对client-go之前就比较了解，建议您移步\ `sample-controller <https://github.com/kubernetes/sample-controller>`__\ 看一下控制器实现的具体代码。
 
 5.1 Reflector
 ~~~~~~~~~~~~~
