@@ -10,11 +10,11 @@ language: English
 
 # client-go系列之2---管理kubeconfig
 
+摘要：分析如何通过client-go来管理kubeconfig。
+
 ![](https://gitee.com/double12gzh/wiki-pictures/raw/master/2020-10-13-client-go-kubeconfig/0.png)
 
 ## 1. 写在前面
-
-摘要：分析如何通过client-go来管理kubeconfig。
 
 > 个人主页: https://gzh.readthedocs.io
 > 

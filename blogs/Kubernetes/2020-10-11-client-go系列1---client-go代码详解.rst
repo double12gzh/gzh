@@ -5,7 +5,7 @@
    :tags: kubernetes, client-go
 .. :excerpt: 1
 
-client-go系列1---client-go代码详解
+client-go系列之1---client-go代码详解
 ==================================
 
 摘要：介绍golang-client的代码结构
