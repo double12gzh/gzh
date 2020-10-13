@@ -177,7 +177,8 @@ extensions = [
     'sphinx.ext.todo',
     'alabaster',
     'ablog',
-    'myst_parser',
+   # 'myst_parser',
+    'recommonmark',
 ]
 
 myst_update_mathjax = False
