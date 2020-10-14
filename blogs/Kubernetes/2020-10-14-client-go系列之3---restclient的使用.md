@@ -1,4 +1,3 @@
-
 ---
 blogpost: true
 date: Oct 14, 2020
