@@ -4,7 +4,7 @@ date: Oct 13, 2020
 author: JeffreyGuan
 location: BJ
 category: Kubernetes
-tags: client-go, kubeconfig
+tags: kubernetes, client-go, kubeconfig
 language: English
 ---
 

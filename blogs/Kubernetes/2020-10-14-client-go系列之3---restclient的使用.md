@@ -4,7 +4,7 @@ date: Oct 14, 2020
 author: JeffreyGuan
 location: BJ
 category: Kubernetes
-tags: k8s, client-go, restclient, k8s源码分析
+tags: kubernetes, client-go, restclient, k8s源码分析
 language: English
 ---
 
