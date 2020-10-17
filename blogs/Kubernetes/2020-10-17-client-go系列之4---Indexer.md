@@ -58,9 +58,9 @@ type Indices map[string]Index
 * `WorkQueue`
 * `ProcessItem`
 
-## 2.1 Indexer
+### 2.1 Indexer
 
-### 2.1.1 简单介绍
+#### 2.1.1 简单介绍
 
 它是一个知道如何使用CRD对象的 `Indexer` 实例的引用(reference)。当我们写`自定义控制器`(Custom Controller)代码时，将使用这个reference去做对象检索。
 
@@ -109,11 +109,11 @@ Indices: {
 
 `IndexKey`主要是用于快速查找`ObjectKey`; 而`ObjectKey`是对象存储时唯一命名的key(这个key方便在存储中快速找到相应的对象)。
 
-### 2.1.2 代码位置
+#### 2.1.2 代码位置
 
 `$GOPATH/pkg/mod/k8s.io/client-go@v0.19.0/tools/cache/index.go`
 
-### 2.1.3 类图展示
+#### 2.1.3 类图展示
 
 从下图我们可以很容易的看到`Indexer`与`cache`、`Store`及`ThreadSafeStore`之间的调用关系。
 
@@ -233,7 +233,7 @@ Indices: {
 
 
 
-## 2.2 Indexer索引器实现
+### 2.2 Indexer索引器实现
 
 在kubernetes中使用的比较多的索引函数是`MetaNamespaceIndexFunc()`（*代码位置: client-go/tools/cache/index.go*）。
 
