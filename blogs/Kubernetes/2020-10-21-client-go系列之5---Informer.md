@@ -1,6 +1,6 @@
 ---
 blogpost: true
-date: Oct 17, 2020
+date: Oct 21, 2020
 author: JeffreyGuan
 location: BJ
 category: Kubernetes
