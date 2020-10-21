@@ -10,6 +10,8 @@ language: English
 
 # client-go系列之5---Informer
 
+摘要：介绍client-go informer及controller.
+
 ![](https://gitee.com/double12gzh/wiki-pictures/raw/master/2020-10-13-client-go-kubeconfig/0.png)
 
 ## 1. 写在前面
